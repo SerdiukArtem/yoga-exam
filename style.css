@@ -1,0 +1,181 @@
+font-family: 'Heebo', sans-serif;
+font-family: 'Merienda One', cursive;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.header {
+  height: 63px;
+  display: flex;
+
+}
+
+.logo {
+  margin-left: 105px ;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 336px;
+  margin-top: 35px;
+  gap: 69px;
+}
+
+a {
+  position: relative;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  text-decoration: none;
+  color: #00a650;
+  cursor: pointer;
+  line-height: 1;
+}
+
+a:after {
+	display: block;
+	position: absolute;
+	left: 0;
+  top: 70px;
+	width: 0;
+	height: 5px; 
+  border-radius: 30%;
+	background-color: #1A7F72; 
+	content: " ";
+	transition: width 0.3s ease-out; 
+}
+
+a:hover:after,
+a:focus:after {
+	width: 100%;
+}
+
+.home {
+  margin-left: 4px;
+  color: #1A7F72;
+  font-size: 24px;
+}
+
+.explore,.about,.classes,.privacy,.services{
+  color: #000000 ;
+}
+
+.explore,.classes {
+  margin-left: -6px;
+}
+
+.about {
+  margin-left: -5px;
+}
+
+.privacy {
+  margin-left: -8px;
+}
+
+.services {
+  margin-left: -5px;
+}
+
+.main {
+  margin: 0 auto;
+  height: 845px;
+  text-align: center;
+  background: #4EC1AF;
+}
+
+.relax{
+  padding-top: 56px;
+  margin-right: 394px;
+  letter-spacing: 3px;
+  font-family: 'Merienda One', cursive;
+  font-weight: 400px;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+
+.text { 
+  position: absolute;
+  top: 296px;
+  left: 342px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.start {
+  top: 387px;
+  left: 639px;
+  padding: 10px 70px;
+  position: absolute;
+  border-radius: 50px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #259385;
+  box-shadow: 0px 20px 40px rgba(21, 113, 101, 0.2);
+  border: 1px solid #259385;
+}
+
+.main_photo {
+  position: absolute;
+  top: 500px;
+  left: 525px;
+}
+
+
+
+.card {
+  display: flex;
+  gap: 145px;
+  padding-left: 120px;
+  padding-top: 92px;
+  align-items: center;
+}
+
+.meditation_img,.yoga_img,.sounds_img {
+  position: absolute;
+  top: 1075px;
+}
+
+.meditation_img{
+  left: 240px;
+}
+
+.yoga_img{
+  left: 715px;
+}
+
+.sounds_img {
+  left: 1180px;
+}
+
+.meditation,.yoga,.sounds {
+  border-radius: 20px;
+  background: #691616;
+  color: #000000;
+  width: 330px;
+  height: 430px;
+  font-family: 'Heebo', sans-serif;
+}
+
+.meditation,.yoga, h3 {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.meditation,.yoga,.sounds p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
