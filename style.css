@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-  margin-left: 105px ;
+  margin-left: 105px;
 }
 
 ul {
@@ -43,21 +43,21 @@ a {
 }
 
 a:after {
-	display: block;
-	position: absolute;
-	left: 0;
+  display: block;
+  position: absolute;
+  left: 0;
   top: 70px;
-	width: 0;
-	height: 5px; 
+  width: 0;
+  height: 5px;
   border-radius: 30%;
-	background-color: #1A7F72; 
-	content: " ";
-	transition: width 0.3s ease-out; 
+  background-color: #1A7F72;
+  content: " ";
+  transition: width 0.3s ease-out;
 }
 
 a:hover:after,
 a:focus:after {
-	width: 100%;
+  width: 100%;
 }
 
 .home {
@@ -66,11 +66,11 @@ a:focus:after {
   font-size: 24px;
 }
 
-.explore,.about,.classes,.privacy,.services{
-  color: #000000 ;
+.explore, .about, .classes, .privacy, .services {
+  color: #000000;
 }
 
-.explore,.classes {
+.explore, .classes {
   margin-left: -6px;
 }
 
@@ -93,7 +93,7 @@ a:focus:after {
   background: #4EC1AF;
 }
 
-.relax{
+.relax {
   padding-top: 56px;
   margin-right: 394px;
   letter-spacing: 3px;
@@ -103,7 +103,7 @@ a:focus:after {
   color: #FFFFFF;
 }
 
-.text { 
+.text {
   position: absolute;
   top: 296px;
   left: 342px;
@@ -141,16 +141,16 @@ a:focus:after {
   align-items: center;
 }
 
-.meditation_img,.yoga_img,.sounds_img {
+.meditation_img, .yoga_img, .sounds_img {
   position: absolute;
   top: 1075px;
 }
 
-.meditation_img{
+.meditation_img {
   left: 240px;
 }
 
-.yoga_img{
+.yoga_img {
   left: 715px;
 }
 
@@ -158,34 +158,33 @@ a:focus:after {
   left: 1190px;
 }
 
-.meditation,.yoga,.sounds {
+.meditation, .yoga, .sounds {
   border-radius: 20px;
-  background: #ffffff
-  color: #000000;
+  background: #ffffff color: #000000;
   width: 330px;
   height: 430px;
   font-family: 'Heebo', sans-serif;
   text-align: center;
 }
 
-.meditation,.yoga, h3 {
+.meditation, .yoga, h3 {
   font-weight: 500;
   font-size: 25px;
 }
 
 
-.meditation,.yoga,.sounds p {
+.meditation, .yoga, .sounds p {
   font-weight: 400;
   font-size: 14px;
 }
 
-.meditation h3  {
+.meditation h3 {
   margin-top: 136px;
 }
 
 .yoga h3 {
   margin-top: 136px;
-} 
+}
 
 .sounds h3 {
   margin-top: 136px;
@@ -208,9 +207,11 @@ a:focus:after {
   padding: 11px 39px;
   border-radius: 50px;
   background: #259385;
+  color: #FFFFFF;
   font-weight: 400;
   font-size: 18px;
   cursor: pointer;
+  border: 0 solid #259385;
 }
 
 .practice {
@@ -243,7 +244,7 @@ a:focus:after {
 
 .pose img {
   margin-top: 340px;
-  margin-left: 120px ;
+  margin-left: 120px;
 }
 
 .descr {
@@ -284,11 +285,11 @@ a:focus:after {
 .about {
   color: #000000;
   background: #C3EEE8;
-  border-radius: 15px ;
+  border-radius: 15px;
   border: 4px solid #378377;
   width: 460px;
   height: 160px;
-  
+
 }
 
 .right {
@@ -296,7 +297,7 @@ a:focus:after {
   position: absolute;
   flex-direction: column;
   padding-left: 100px;
-  gap: 70px ;
+  gap: 70px;
   top: 2650px;
   direction: rtl;
 }
@@ -311,12 +312,12 @@ a:focus:after {
   padding-left: 950px;
 }
 
-.about h3  {
+.about h3 {
   color: #000000;
   font-weight: 500;
   font-size: 28px;
   font-family: 'Heebo', sans-serif;
-  margin: 20px; 
+  margin: 20px;
 }
 
 .about p {
@@ -330,4 +331,149 @@ a:focus:after {
   position: absolute;
   margin-left: 640px;
   margin-top: 250px;
+}
+
+.transform {
+  padding: 1px;
+  background-color: #ffffff;
+  height: 1300px;
+  color: #000000;
+  margin: 0 auto;
+}
+
+.mind {
+  text-align: center;
+}
+
+.mind h1 {
+  font-size: 44px;
+  font-weight: 400;
+  margin-right: 405px;
+  margin-top: 85px;
+  font-family: 'Merienda One', cursive;
+  letter-spacing: -1px;
+}
+
+.mind p {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 405px;
+  margin-top: -30px;
+}
+
+.first {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 200px;
+}
+
+.antistress h3 {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  padding-left: 170px;
+  padding-top: 50px;
+}
+
+.antistress p {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  margin-top: -5px;
+  padding-left: 175px;
+  line-height: 20px;
+}
+
+.learn {
+  position: absolute;
+  right: 311px;
+  margin-top: 13px;
+  padding: 7px 30px;
+  border-radius: 50px;
+  background: #259385;
+  color: #FFFFFF;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  border: 0px solid #259385;
+  cursor: pointer;
+}
+
+.backyark {
+  margin-top: 150px;
+  margin-left: 160px;
+}
+
+.backyark h3 {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.backyark p {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  margin-top: -10px;
+  line-height: 25px;
+}
+
+.lern {
+  position: absolute;
+  padding: 7px 30px;
+  border-radius: 50px;
+  background: #259385;
+  color: #FFFFFF;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  border: 0px solid #259385;
+  cursor: pointer;
+}
+
+.img_girl {
+  margin-left: 760px;
+  margin-top: -300px;
+}
+
+.footer {
+  display: ;
+}
+
+.footer_logo {
+  position: absolute;
+  top: 4873px;
+  right: 528px;
+}
+
+.footer_nav {
+  display: flex;
+  position: absolute;
+  top: 4960px;
+  right: 261px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.footer_nav ul li {
+  color: #000000;
+  margin-left: -54px;
+  border-right: 2px solid #000000;
+  padding-right: 20px;
+  height: 30px;
+}
+
+.footer_nav ul li:last-child {
+  border-right:0px;
+}
+
+.social {
+  display: flex;
+  gap: 22px;
+  position: absolute;
+  margin-left: 670px;
+  margin-top: -100px;
 }
