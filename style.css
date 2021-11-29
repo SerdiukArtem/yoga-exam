@@ -210,6 +210,7 @@ a:focus:after {
   background: #259385;
   font-weight: 400;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .practice {
