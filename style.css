@@ -1,12 +1,11 @@
-font-family: 'Heebo', sans-serif;
-font-family: 'Merienda One', cursive;
+
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  max-width: 1920px;
+  width: 1920px;
   margin: 0 auto;
   padding: 0 auto;
 }
