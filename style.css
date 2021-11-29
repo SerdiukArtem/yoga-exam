@@ -437,21 +437,17 @@ a:focus:after {
   margin-top: -300px;
 }
 
-.footer {
-  display: ;
-}
-
 .footer_logo {
   position: absolute;
   top: 4873px;
-  right: 528px;
+  right: 698px;
 }
 
 .footer_nav {
   display: flex;
   position: absolute;
   top: 4960px;
-  right: 261px;
+  right: 431px;
   font-family: 'Heebo', sans-serif;
   font-weight: 400;
   font-size: 21px;
