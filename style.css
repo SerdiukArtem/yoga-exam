@@ -37,7 +37,7 @@ a {
   font-weight: 500;
   font-size: 22px;
   text-decoration: none;
-  color: #00a650;
+  color: #000000;
   cursor: pointer;
   line-height: 1;
 }
@@ -74,7 +74,7 @@ a:focus:after {
   margin-left: -6px;
 }
 
-.about {
+.us {
   margin-left: -5px;
 }
 
@@ -133,8 +133,6 @@ a:focus:after {
   left: 525px;
 }
 
-
-
 .card {
   display: flex;
   gap: 145px;
@@ -157,25 +155,178 @@ a:focus:after {
 }
 
 .sounds_img {
-  left: 1180px;
+  left: 1190px;
 }
 
 .meditation,.yoga,.sounds {
   border-radius: 20px;
-  background: #691616;
+  background: #ffffff
   color: #000000;
   width: 330px;
   height: 430px;
   font-family: 'Heebo', sans-serif;
+  text-align: center;
 }
 
 .meditation,.yoga, h3 {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 25px;
 }
 
+
 .meditation,.yoga,.sounds p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.meditation h3  {
+  margin-top: 136px;
+}
+
+.yoga h3 {
+  margin-top: 136px;
+} 
+
+.sounds h3 {
+  margin-top: 136px;
+}
+
+.meditation p {
+  margin-top: -10px;
+}
+
+.yoga p {
+  margin-top: -10px;
+}
+
+.sounds p {
+  margin-top: -10px;
+}
+
+.more {
+  margin-top: 23px;
+  padding: 11px 39px;
+  border-radius: 50px;
+  background: #259385;
   font-weight: 400;
   font-size: 18px;
 }
 
+.practice {
+  color: #000000;
+  height: 939px;
+}
+
+.need {
+  position: absolute;
+  top: 1515px;
+  text-align: center;
+  left: 300px;
+  margin: 0 auto;
+}
+
+.need h1 {
+  font-family: 'Merienda One', cursive;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -5px;
+}
+
+.need p {
+  margin-top: -30px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Heebo', sans-serif;
+}
+
+.pose img {
+  margin-top: 340px;
+  margin-left: 120px ;
+}
+
+.descr {
+  position: absolute;
+  top: 1800px;
+  left: 866px;
+  font-family: 'Heebo', sans-serif;
+}
+
+.stress {
+  margin-top: 64px;
+}
+
+.best {
+  height: 1010px;
+  background: #4EC1AF;
+  display: flex;
+}
+
+.the h1 {
+  margin-left: 310px;
+  margin-top: 65px;
+  font-family: 'Merienda One', cursive;
+  font-size: 44px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.the p {
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 350px;
+  margin-top: -20px;
+}
+
+.about {
+  color: #000000;
+  background: #C3EEE8;
+  border-radius: 15px ;
+  border: 4px solid #378377;
+  width: 460px;
+  height: 160px;
+  
+}
+
+.right {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  padding-left: 100px;
+  gap: 70px ;
+  top: 2650px;
+  direction: rtl;
+}
+
+
+.left {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 2650px;
+  gap: 70px;
+  padding-left: 950px;
+}
+
+.about h3  {
+  color: #000000;
+  font-weight: 500;
+  font-size: 28px;
+  font-family: 'Heebo', sans-serif;
+  margin: 20px; 
+}
+
+.about p {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Heebo', sans-serif;
+  margin: -20px 28px;
+}
+
+.namaste {
+  position: absolute;
+  margin-left: 640px;
+  margin-top: 250px;
+}
